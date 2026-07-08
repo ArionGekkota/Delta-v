@@ -100,7 +100,7 @@
     - FootstepSound
   - type: TypingIndicator
     proto: allulalo
-  - type: PseudoItem
+  - type: PseudoItem # DeltaV - Allows Allulalo to fit inside bags
     storedOffset: 0,17
     shape:
     - 0,0,3,3
