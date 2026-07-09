@@ -130,4 +130,7 @@ alerts-high-glimmer-name = High Glimmer
 alerts-high-glimmer-desc = Glimmer around you is [color=cyan]dangerously high[/color]! Psionically insulative clothing, such as a [color=green]tinfoil hat[/color] can protect you from psionic discharges.
 
 alerts-psionically-insulated-name = [color=green]Psionically Insulated[/color]
-alerts-psionically-insulated-desc = You're wearing psionically insulative clothing; you won't be affected by psionics, but won't be able to use your own!
+alerts-psionically-insulated-desc = You're wearing psionically insulative clothing; you won't be affected by psionics!
+
+alerts-psionically-insulated-name = [color=red]Psionically Supressed[/color]
+alerts-psionically-insulated-desc = You can't use psionic abilities!

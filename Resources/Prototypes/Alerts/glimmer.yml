@@ -14,3 +14,12 @@
     - sprite: Nyanotrasen/Clothing/Head/Hats/tinfoil.rsi
   name: alerts-psionically-insulated-name
   description: alerts-psionically-insulated-desc
+
+- type: alert
+  id: PsionicallySupressed
+  category: Glimmer
+  icons:
+    - sprite: _DV/Interface/Actions/actions_psionics.rsi
+      state: dispel
+  name: alerts-psionically-supressed-name
+  description: alerts-psionically-supressed-desc
