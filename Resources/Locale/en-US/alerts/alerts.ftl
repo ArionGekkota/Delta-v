@@ -125,3 +125,6 @@ alerts-stealthy-desc = Whether you are currently pickpocketing. Click to toggle.
 
 alerts-prying-name = Prying
 alerts-prying-desc = You can innately pry doors open using alternative interaction.
+
+alerts-high-glimmer-name = High Glimmer
+alerts-high-glimmer-desc = Glimmer around you is [color=cyan]dangerously high[/color]! Psionically insulative clothing, such as a [color=green]tinfoil hat[/color] can protect you from psionic discharges.

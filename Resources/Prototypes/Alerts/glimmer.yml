@@ -1,0 +1,8 @@
+- type: alert
+  id: HighGlimmer
+  category: Glimmer
+  icons:
+    - sprite: _DV/Interface/Actions/actions_psionics.rsi
+      state: eruption
+  name: alerts-high-glimmer-name
+  description: alerts-high-glimmer-desc

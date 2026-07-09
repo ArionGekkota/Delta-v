@@ -24,6 +24,7 @@
     - category: Temperature
     - category: Hunger
     - category: Thirst
+    - category: Glimmer
     - alertType: Magboots
     - alertType: Rooted
     - alertType: Pacified
