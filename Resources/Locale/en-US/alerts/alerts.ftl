@@ -132,5 +132,5 @@ alerts-high-glimmer-desc = Glimmer around you is [color=cyan]dangerously high[/c
 alerts-psionically-insulated-name = [color=green]Psionically Insulated[/color]
 alerts-psionically-insulated-desc = You're wearing psionically insulative clothing; you won't be affected by psionics!
 
-alerts-psionically-insulated-name = [color=red]Psionically Supressed[/color]
-alerts-psionically-insulated-desc = You can't use psionic abilities!
+alerts-psionically-suppressed-name = [color=red]Psionically Suppressed[/color]
+alerts-psionically-suppressed-desc = You can't use psionic abilities!
