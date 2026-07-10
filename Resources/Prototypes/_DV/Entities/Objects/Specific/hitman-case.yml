@@ -13,10 +13,9 @@
     toolDesc: hitman-briefcase-window-description
     possibleSets:
     - HitmanSharpshooterKit
-    - HitmanLoudKit
+    - HitmanBountyHunterKit
     - HitmanAssassinKit
+    - HitmanSamuraiKit
     - HitmanPoisonerKit
-    - HitmanInfiltrationKit
-    - HitmanDisguiseKit
-    - HitmanEscapistKit
+    - HitmanSaboteurKit
     - HitmanTrackerKit

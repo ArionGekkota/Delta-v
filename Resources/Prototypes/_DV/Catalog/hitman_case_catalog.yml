@@ -8,20 +8,24 @@
   content:
   - BriefcaseSyndieSniperBundleFilled
   - ClothingEyesThermalVisionGogglesSyndie
+  - Binoculars
+  - StealthBox
+  - CigPackSyndicate
 
 - type: thiefBackpackSet
-  id: HitmanLoudKit
-  name: hitman-loud-kit-name
-  description: hitman-loud-kit-description
+  id: HitmanBountyHunterKit
+  name: hitman-bounty-hunter-kit-name
+  description: hitman-bounty-hunter-kit-description
   sprite:
-    sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi
+    sprite: Objects/Weapons/Guns/Revolvers/python.rsi
     state: icon
   content:
+  - BriefcaseSyndieSKL93BundleFilled
   - WeaponRevolverPythonAP
   - SpeedLoaderMagnumAP
-  - SpeedLoaderMagnumAP
-  - ClothingOuterArmorBasic
-  - ClothingShoesChameleonNoSlips
+  - ClothingShoesBootsCowboyBlackFilled
+  - ClothingNeckCWPGorlex
+  - ClothingOuterArmorBasicSlim
 
 - type: thiefBackpackSet
   id: HitmanAssassinKit
@@ -32,10 +36,29 @@
     state: icon
   content:
   - WeaponPistolCobra
-  - MagazinePistolCaselessRifle
+  - MagazinePistolCaselessRiflePoison
+  - MagazinePistolCaselessRifleTranquilizer
+  - AgentIDCard
+  - ClothingBackpackChameleonFill
+  - VoiceMaskImplant
+  - FakeMindShieldImplanter
+
+- type: thiefBackpackSet
+  id: HitmanSamuraiKit
+  name: hitman-samurai-kit-name
+  description: hitman-samurai-kit-description
+  sprite:
+    sprite: Nyanotrasen/Clothing/Head/Helmets/kabuto.rsi
+    state: icon
+  content:
+  - WeaponHFKatana
   - ThrowingKnivesKit
-  - ClothingEyesNightVisionGoggles
-  - RadioJammer
+  - ScramImplanter
+  - SyringeEphedrine
+  - ClothingShoesChameleonNoSlips
+  - ClothingOuterDogi
+  - ClothingHeadHelmetKabuto
+  - ClothingMaskOniRed
 
 - type: thiefBackpackSet
   id: HitmanPoisonerKit
@@ -45,7 +68,7 @@
     sprite: Objects/Specific/Chemistry/bottle.rsi
     state: bottle
   content:
-  - Syringe
+  - AdvancedJetInjector
   - ChemistryBottlePax
   - ChemistryBottleToxin
   - ChemistryBottleMuteToxin
@@ -53,41 +76,23 @@
   - ChemicalSynthesisKit
 
 - type: thiefBackpackSet
-  id: HitmanInfiltrationKit
-  name: hitman-infiltration-kit-name
-  description: hitman-infiltration-kit-description
+  id: HitmanSaboteurKit
+  name: hitman-saboteur-kit-name
+  description: hitman-saboteur-kit-description
   sprite:
-    sprite: _DV/Objects/Tools/doorjack.rsi
+    sprite: Objects/Tools/emag.rsi
     state: icon
   content:
   - Emag
-  - SyndicateJawsOfLife
-  - StealthBox
-
-- type: thiefBackpackSet
-  id: HitmanDisguiseKit
-  name: hitman-disguise-kit-name
-  description: hitman-disguise-kit-description
-  sprite:
-    sprite: Clothing/OuterClothing/Misc/black_hoodie.rsi
-    state: icon
-  content:
-  - AgentIDCard
-  - ClothingBackpackChameleonFill
-  - BionicVoiceMaskImplanter
-  - FakeMindShieldImplanter
-
-- type: thiefBackpackSet
-  id: HitmanEscapistKit
-  name: hitman-escapist-kit-name
-  description: hitman-escapist-kit-description
-  sprite:
-    sprite: Actions/Implants/implants.rsi
-    state: freedom
-  content:
-  - DnaScramblerImplanter
-  - FreedomImplanter
-  - ScramImplanter
+  - Doorjack
+  - Omnitool
+  - Multitool
+  - WelderIndustrialAdvanced
+  - DeadMansSignaler
+  - RCD
+  - RCDAmmo
+  - ClothingHandsGlovesCombat
+  - ClothingEyesGlassesMeson
 
 - type: thiefBackpackSet
   id: HitmanTrackerKit
@@ -99,4 +104,9 @@
   content:
   - PinpointerUniversal #todo: make this a version to find the hitmans target later
   - EncryptionKeyStationMaster
+  - EncryptionKeyBinarySyndicate
   - SpyCrewMonitor
+  - CameraBug
+  - MultitoolAiDetector
+  - ClothingEyesGlassesHiddenSecurity
+  - HandheldStationMapRecordsTablet
