@@ -16,11 +16,11 @@ hitman-assassin-kit-description =
     Provides a Cobra with toxin and tranquilizer magazines, plus a set of
     chameleon clothing, agent ID, fake mindshield and an identity mask implant.
 
-hitman-samurai-kit-name = Samurai kit
-hitman-samurai-kit-description =
+hitman-ninja-kit-name = Ninja kit
+hitman-ninja-kit-description =
     A kit for those who want to fight up close.
-    Provides a high frequency blade, throwing knives, a stim-pack and
-    a scram implant. Plus no-slip shoes and samurai armor.
+    Provides a medium frequency blade, throwing knives and a scram implant.
+Plus no-slip shoes, smoke bombs and a combat medkit.
 
 hitman-poisoner-kit-name = Poisoner kit
 hitman-poisoner-kit-description =
