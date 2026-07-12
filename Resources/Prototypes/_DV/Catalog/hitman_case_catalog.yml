@@ -48,10 +48,10 @@
   name: hitman-ninja-kit-name
   description: hitman-ninja-kit-description
   sprite:
-    sprite: _Mono/Objects/Weapons/Melee/hfblade.rsi
+    sprite: _DV/Objects/Weapons/Melee/mfkatana.rsi
     state: icon
   content:
-  - WeaponHFKatana # TODO: Replace with MFKatana
+  - WeaponMFKatana # TODO: Replace with MFKatana
   - ThrowingKnivesKit
   - ScramImplanter
   - ClothingShoesChameleonNoSlips
