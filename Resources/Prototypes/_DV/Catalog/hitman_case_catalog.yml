@@ -44,21 +44,22 @@
   - FakeMindShieldImplanter
 
 - type: thiefBackpackSet
-  id: HitmanSamuraiKit
-  name: hitman-samurai-kit-name
-  description: hitman-samurai-kit-description
+  id: HitmanNinjaKit
+  name: hitman-ninja-kit-name
+  description: hitman-ninja-kit-description
   sprite:
-    sprite: Nyanotrasen/Clothing/Head/Helmets/kabuto.rsi
+    sprite: _Mono/Objects/Weapons/Melee/hfblade.rsi
     state: icon
   content:
-  - WeaponHFKatana
+  - WeaponHFKatana # TODO: Replace with MFKatana
   - ThrowingKnivesKit
   - ScramImplanter
-  - SyringeEphedrine
   - ClothingShoesChameleonNoSlips
-  - ClothingOuterDogi
-  - ClothingHeadHelmetKabuto
-  - ClothingMaskOniRed
+  - SmokeGrenade
+  - SmokeGrenade
+  - StimpackMini
+  - StimpackMini
+  - MedkitCombatFilled
 
 - type: thiefBackpackSet
   id: HitmanPoisonerKit
@@ -85,12 +86,14 @@
   content:
   - Emag
   - Doorjack
-  - Omnitool
+  - SyndicateJawsOfLife
+  - PowerDrill
   - Multitool
   - WelderIndustrialAdvanced
   - DeadMansSignaler
   - RCD
   - RCDAmmo
+  - ClothingBeltUtility
   - ClothingHandsGlovesCombat
   - ClothingEyesGlassesMeson
 
@@ -102,7 +105,7 @@
     sprite: Objects/Tools/spy_device.rsi
     state: icon
   content:
-  - PinpointerUniversal #todo: make this a version to find the hitmans target later
+  - PinpointerUniversal #TODO: make this a version to find the hitmans target later
   - EncryptionKeyStationMaster
   - EncryptionKeyBinarySyndicate
   - SpyCrewMonitor
