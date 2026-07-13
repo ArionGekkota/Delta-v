@@ -12,6 +12,7 @@
   category: Glimmer
   icons:
     - sprite: Nyanotrasen/Clothing/Head/Hats/tinfoil.rsi
+      state: icon
   name: alerts-psionically-insulated-name
   description: alerts-psionically-insulated-desc
 
