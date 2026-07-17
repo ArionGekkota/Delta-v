@@ -110,7 +110,7 @@
 
 - type: entity
   name: medium-frequency blade
-  parent: Katana # DeltaV - no contraband
+  parent: Katana
   id: WeaponMFKatana
   description: An incredibly sharp katana with a heated blade, able to cut through both flesh and steel.
   components:
