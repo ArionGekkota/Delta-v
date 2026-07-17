@@ -8,6 +8,8 @@
     sprite: _DV/Clothing/Shoes/Boots/magboots-security.rsi
   - type: Clothing
     sprite: _DV/Clothing/Shoes/Boots/magboots-security.rsi
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.75
 
 # ERT
 
