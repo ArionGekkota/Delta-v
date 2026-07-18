@@ -58,6 +58,16 @@
   - MagazinePistolHighCapacityRubber
 
 - type: latheRecipePack
+  id: SecurityStandardAmmoStatic
+  recipes:
+  - MagazinePistol
+  - SpeedLoaderMagnum
+  - SpeedLoaderSpecial
+  - MagazineBoxPistol
+  - MagazineBoxMagnum
+  - MagazineBoxSpecial
+
+- type: latheRecipePack
   parent: SecurityDisablers
   id: SecurityWeaponsStaticDeltaV
   recipes:

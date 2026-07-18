@@ -414,9 +414,9 @@
     - HostileCubesStatic
 
 - type: entity
-  id: ArmoryTechFab
+  id: ArmoryTechFab # DeltaV - was SecurityTechFab
   parent: BaseLatheLube
-  name: armory techfab
+  name: armory techfab # DeltaV - was security techfab
   description: Prints restricted equipment for use by security crew.
   components:
   - type: Sprite
@@ -434,14 +434,14 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
-    board: ArmoryTechFabCircuitboard
+    board: ArmoryTechFabCircuitboard # DeltaV - was SecurityTechFabCircuitboard
   - type: Lathe
     idleState: icon
     runningState: icon
     unlitIdleState: unlit # DeltaV - added animation sprite layers
     unlitRunningState: unlit-building # DeltaV - added animation sprite layers
     staticPacks:
-    - SecurityEquipmentStatic
+    -
     - SecurityPracticeStatic
     - SecurityAmmoStatic
     - SecurityWeaponsStatic
@@ -486,9 +486,9 @@
     channels: [Security]
 
 - type: entity
-  id: SecurityTechFab
+  id: SecurityTechFab # DeltaV - was AmmoTechFab
   parent: BaseLatheLube
-  name: security techfab
+  name: security techfab # DeltaV - was ammo techfab
   description: Prints equipment for use by security crew.
   components:
     - type: Sprite
@@ -506,20 +506,28 @@
         - state: panel
           map: ["enum.WiresVisualLayers.MaintenancePanel"]
     - type: Machine
-      board: SecurityTechFabCircuitboard
+      board: SecurityTechFabCircuitboard # DeltaV - was AmmoTechFabCircuitboard
     - type: Lathe
       idleState: icon
       runningState: icon
       unlitIdleState: unlit # DeltaV - added animation sprite layers
       unlitRunningState: unlit-building # DeltaV - added animation sprite layers
       staticPacks:
-      - SecurityAmmoStatic
+      # - SecurityAmmoStatic
     # Start DeltaV Additions
-      - SecurityShotgunDrumsStatic
-      - AmmoFabPracticeStatic # Removes practice guns
+      - SecurityEquipmentStatic
+      - SecurityPracticeStatic
       - SecurityRubberAmmoStatic
+      - SecurityStandardAmmoStatic
+      - PrisonerSoftsuits
+      - EVASuit
+      - SimpleToolsStaticDeltaV
+      - BorgModulesSecurityDeltaVStatic
       dynamicPacks:
-      - SecurityAmmo
+      # - SecurityAmmo
+      - SalvageSecurityWeapons
+      - SecurityEquipment
+      - SpecOpsGoogles
     # End DeltaV Additions
     - type: BlueprintReceiver
       whitelist:
