@@ -33890,7 +33890,7 @@ entities:
     - type: Transform
       pos: -12.532179,11.55442
       parent: 1668
-- proto: SecurityTechFab
+- proto: ArmoryTechFab
   entities:
   - uid: 2874
     components:

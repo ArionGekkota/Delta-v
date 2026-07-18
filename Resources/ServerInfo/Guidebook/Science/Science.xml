@@ -48,7 +48,7 @@ In order to progress further, you have to research [color=brown]all[/color] of t
   <Box>
     <GuideEntityEmbed Entity="ExosuitFabricator"/>
     <GuideEntityEmbed Entity="MedicalTechFab"/>
-    <GuideEntityEmbed Entity="SecurityTechFab"/>
+    <GuideEntityEmbed Entity="ArmoryTechFab"/>
   </Box>
 At a lathe, you can choose a server to allow it print whatever recipes you have unlocked. Recipes require various materials (steel, glass, plastic, gold, plasma) which can be acquired at Logistics or Salvage.
 

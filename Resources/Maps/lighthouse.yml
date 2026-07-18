@@ -113941,7 +113941,7 @@ entities:
     - type: Transform
       pos: 9.5,40.5
       parent: 100
-- proto: SecurityTechFab
+- proto: ArmoryTechFab
   entities:
   - uid: 1942
     components:
@@ -113953,7 +113953,7 @@ entities:
       - Steel
       - Plastic
       - Glass
-- proto: SecurityTechFabCircuitboard
+- proto: ArmoryTechFabCircuitboard
   entities:
   - uid: 19640
     components:

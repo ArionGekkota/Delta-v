@@ -17665,7 +17665,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -28.83155,-60.251965
       parent: 2
-- proto: AmmoTechFab
+- proto: SecurityTechFab
   entities:
   - uid: 742
     components:
@@ -130289,11 +130289,11 @@ entities:
     - type: Paper
       content: >2-
 
-             [color=#1b67a5]█▄ █ ▀█▀    
+             [color=#1b67a5]█▄ █ ▀█▀
              █ ▀█     █ [/color]    [head=2]Cryogenics Setup Instructions[/head]
           ─────────────────────────────────────────
 
-        Setting up the cryo tubes is actually fairly simple once you learn! For the two filters that you see near the table... set one of them to filter out carbon dioxide, and the other for nitrous oxide. 
+        Setting up the cryo tubes is actually fairly simple once you learn! For the two filters that you see near the table... set one of them to filter out carbon dioxide, and the other for nitrous oxide.
 
 
         On the other side of the piping there is a gas pump. Just turn it on, a pressure of 101.3 kpa is ideal.
@@ -146888,14 +146888,14 @@ entities:
     - type: Transform
       pos: -70.5,-10.5
       parent: 2
-- proto: SecurityTechFab
+- proto: ArmoryTechFab
   entities:
   - uid: 22079
     components:
     - type: Transform
       pos: -77.5,-7.5
       parent: 2
-- proto: SecurityTechFabCircuitboard
+- proto: ArmoryTechFabCircuitboard
   entities:
   - uid: 22080
     components:

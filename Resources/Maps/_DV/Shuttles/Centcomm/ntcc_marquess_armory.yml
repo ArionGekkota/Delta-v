@@ -321,7 +321,7 @@ entities:
     - type: Transform
       pos: -0.5,-7.5
       parent: 1
-- proto: AmmoTechFab
+- proto: SecurityTechFab
   entities:
   - uid: 197
     components:

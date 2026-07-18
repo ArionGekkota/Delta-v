@@ -80,7 +80,7 @@
   id: SMESMachineCircuitboard
   result: SMESMachineCircuitboard
 
-# Security techfab
+# Armory techfab
 - type: latheRecipe
   parent: [ BaseCircuitboardRecipe, BaseMachineRecipeCategory ]
   id: ShuttleGunSvalinnMachineGunCircuitboard

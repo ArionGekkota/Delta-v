@@ -414,10 +414,10 @@
     - HostileCubesStatic
 
 - type: entity
-  id: SecurityTechFab
+  id: ArmoryTechFab
   parent: BaseLatheLube
-  name: security techfab
-  description: Prints equipment for use by security crew.
+  name: armory techfab
+  description: Prints restricted equipment for use by security crew.
   components:
   - type: Sprite
     sprite: _DV/Structures/Machines/techfab.rsi # DeltaV - resprite armoury fabs
@@ -434,7 +434,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
-    board: SecurityTechFabCircuitboard
+    board: ArmoryTechFabCircuitboard
   - type: Lathe
     idleState: icon
     runningState: icon
@@ -474,7 +474,7 @@
     whitelist:
       tags:
       - BlueprintAutolathe
-      - BlueprintSecurityTechfab
+      - BlueprintArmoryTechFab
   - type: ContainerContainer
     containers:
       machine_board: !type:Container
@@ -486,10 +486,10 @@
     channels: [Security]
 
 - type: entity
-  id: AmmoTechFab
+  id: SecurityTechFab
   parent: BaseLatheLube
-  name: ammo techfab
-  description: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
+  name: security techfab
+  description: Prints equipment for use by security crew.
   components:
     - type: Sprite
       sprite: _DV/Structures/Machines/techfab.rsi # DeltaV - resprite armoury fabs
@@ -506,7 +506,7 @@
         - state: panel
           map: ["enum.WiresVisualLayers.MaintenancePanel"]
     - type: Machine
-      board: AmmoTechFabCircuitboard
+      board: SecurityTechFabCircuitboard
     - type: Lathe
       idleState: icon
       runningState: icon

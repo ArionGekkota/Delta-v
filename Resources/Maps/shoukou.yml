@@ -9944,7 +9944,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: AmmoTechFab
+- proto: SecurityTechFab
   entities:
   - uid: 435
     components:
@@ -93627,7 +93627,7 @@ entities:
     - type: Transform
       pos: 36.5,-14.5
       parent: 2
-- proto: SecurityTechFab
+- proto: ArmoryTechFab
   entities:
   - uid: 13798
     components:

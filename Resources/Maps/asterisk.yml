@@ -6749,7 +6749,7 @@ entities:
     - type: Transform
       pos: 37.71663,9.643185
       parent: 2
-- proto: AmmoTechFab
+- proto: SecurityTechFab
   entities:
   - uid: 12164
     components:
@@ -65861,14 +65861,14 @@ entities:
     - type: Transform
       pos: -38.5,11.5
       parent: 2
-- proto: SecurityTechFab
+- proto: ArmoryTechFab
   entities:
   - uid: 10205
     components:
     - type: Transform
       pos: -49.5,14.5
       parent: 2
-- proto: SecurityTechFabCircuitboard
+- proto: ArmoryTechFabCircuitboard
   entities:
   - uid: 2450
     components:

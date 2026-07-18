@@ -82,15 +82,15 @@
       Glass: 1
 
 - type: entity
-  id: SecurityTechFabCircuitboard
+  id: ArmoryTechFabCircuitboard
   parent: BaseMachineCircuitboard
-  name: security techfab machine board
-  description: A machine printed circuit board for a security techfab.
+  name: armory techfab machine board
+  description: A machine printed circuit board for a armory techfab.
   components:
     - type: Sprite
       state: security
     - type: MachineBoard
-      prototype: SecurityTechFab
+      prototype: ArmoryTechFab
       stackRequirements:
         Manipulator: 4
       tagRequirements:
@@ -99,7 +99,7 @@
           defaultPrototype: Beaker
 
 - type: entity
-  id: AmmoTechFabCircuitboard
+  id: SecurityTechFabCircuitboard
   parent: BaseMachineCircuitboard
   name: ammo techfab circuit board
   description: A machine printed circuit board for an ammo techfab.
@@ -107,7 +107,7 @@
     - type: Sprite
       state: security
     - type: MachineBoard
-      prototype: AmmoTechFab
+      prototype: SecurityTechFab
       stackRequirements:
         Manipulator: 2
 

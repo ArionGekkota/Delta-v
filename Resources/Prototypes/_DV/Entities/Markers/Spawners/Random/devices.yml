@@ -216,7 +216,7 @@
           - id: FlatpackerMachineCircuitboard
           #- id: CargoTelepadMachineCircuitboard
           - id: MiniGravityGeneratorCircuitboard
-          - id: AmmoTechFabCircuitboard
+          - id: SecurityTechFabCircuitboard
           - id: RadarConsoleCircuitboard
           - id: ComputerShuttle
             weight: 0.20

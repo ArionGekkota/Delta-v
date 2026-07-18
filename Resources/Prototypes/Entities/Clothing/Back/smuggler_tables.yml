@@ -231,7 +231,7 @@
     - id: ReagentGrinderIndustrialMachineCircuitboard
     - id: BoozeDispenserMachineCircuitboard
     - id: MiniGravityGeneratorCircuitboard
-    - id: AmmoTechFabCircuitboard
+    - id: SecurityTechFabCircuitboard
     - id: CryoPodMachineCircuitboard
     - id: PowerCageRechargerCircuitboard
     - id: ShuttleConsoleCircuitboard
