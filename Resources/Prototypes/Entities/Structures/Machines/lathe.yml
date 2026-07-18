@@ -441,7 +441,6 @@
     unlitIdleState: unlit # DeltaV - added animation sprite layers
     unlitRunningState: unlit-building # DeltaV - added animation sprite layers
     staticPacks:
-    -
     - SecurityPracticeStatic
     - SecurityAmmoStatic
     - SecurityWeaponsStatic
@@ -526,6 +525,7 @@
       dynamicPacks:
       # - SecurityAmmo
       - SalvageSecurityWeapons
+      - SecurityDisablers
       - SecurityEquipment
       - SpecOpsGoogles
     # End DeltaV Additions

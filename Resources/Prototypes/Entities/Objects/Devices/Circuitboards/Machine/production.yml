@@ -101,8 +101,8 @@
 - type: entity
   id: SecurityTechFabCircuitboard
   parent: BaseMachineCircuitboard
-  name: ammo techfab circuit board
-  description: A machine printed circuit board for an ammo techfab.
+  name: security techfab circuit board
+  description: A machine printed circuit board for a security techfab.
   components:
     - type: Sprite
       state: security
